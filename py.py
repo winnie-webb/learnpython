@@ -6,10 +6,10 @@ def median(array) :
         sub_median_1 = (arrayLength // 2)
         sub_median_2 = (arrayLength // 2) -1
         median = (array[sub_median_1] + array[sub_median_2]) // 2
-        print(median)
+        return median
     else :
-        arrayMedian = array[arrayLength // 2]
-        print(arrayMedian)
+        median = array[arrayLength // 2]
+        print(median)
 median(speeds)
 
 
